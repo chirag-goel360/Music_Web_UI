@@ -483,8 +483,8 @@ class PlayerBar extends StatelessWidget {
                   ),
                   child: Slider(
                     min: 0,
-                    max: 50,
-                    value: myValue * 10,
+                    max: 5,
+                    value: myValue,
                     onChanged: onPressed,
                   ),
                 ),
