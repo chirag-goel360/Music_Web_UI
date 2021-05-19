@@ -120,10 +120,10 @@ class Categories extends StatelessWidget {
               horizontal: 20,
               vertical: 10,
             ),
-            child: OutlineButton.icon(
-              borderSide: BorderSide(
-                color: kWhiteColor,
-              ),
+            child: OutlinedButton.icon(
+              // borderSide: BorderSide(
+              //   color: kWhiteColor,
+              // ),
               onPressed: () {},
               icon: Icon(
                 Icons.add,
